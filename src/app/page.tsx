@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+// import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 export default function Home() {
   return (
@@ -389,7 +389,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="flex justify-center space-x-4">
+          {/* <div className="flex justify-center space-x-4">
             <Link href="#" className="text-gray-400 hover:text-white">
               <Facebook size={20} />
             </Link>
@@ -402,7 +402,7 @@ export default function Home() {
             <Link href="#" className="text-gray-400 hover:text-white">
               <Youtube size={20} />
             </Link>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
